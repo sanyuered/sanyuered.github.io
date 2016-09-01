@@ -1,5 +1,9 @@
 'use strict';
 
+require.config({ 
+    urlArgs: "v=2060902"
+});
+
 require(['core'], function (core) {
 
     var pageName = core.url.getPageName();
