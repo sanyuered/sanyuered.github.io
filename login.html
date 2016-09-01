@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html>
-<head>        
+
+<head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <!--[if gt IE 8]>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />        
-    <![endif]-->                
+    <![endif]-->
     <title>Login</title>
     <link href="css/stylesheets.css" rel="stylesheet" type="text/css" />
     <!--[if lt IE 10]>
         <link href="css/ie.css" rel="stylesheet" type="text/css" />
-    <![endif]-->           
+    <![endif]-->
     <!--[if lte IE 7]>
         <script type='text/javascript' src='js/plugins/other/lte-ie7.js'></script>
-    <![endif]-->    
+    <![endif]-->
 </head>
-<body>    
-    <div id="loader" class="hide"><img src="img/loader.gif"/></div>
-       
+
+<body>
+    <div id="loader" class="hide"><img src="img/loader.gif" /></div>
+
     <div class="login">
 
         <div class="page-header">
@@ -25,31 +27,32 @@
                 <span class="ico-arrow-right"></span>
             </div>
             <h1>Login <small>ADMIN PANEL</small></h1>
-        </div>        
-        
+        </div>
+
         <div class="row-fluid">
             <div class="row-form">
                 <div class="span12">
-                    <input type="text" name="login" placeholder="login"/>
+                    <input type="text" name="login" placeholder="user name" id="txtUserName" />
                 </div>
             </div>
             <div class="row-form">
                 <div class="span12">
-                    <input type="password" name="password" placeholder="password"/>
-                </div>            
+                    <input type="password" name="password" placeholder="password" />
+                </div>
             </div>
             <div class="row-form">
                 <div class="span12">
-                    <input type="checkbox"/> Keep me signed in
+                    <input type="checkbox" /> Keep me signed in
                 </div>
             </div>
             <div class="row-form">
                 <div class="span12">
                     <button class="btn" id="btnSignIn">Sign in <span class="icon-arrow-next icon-white"></span></button>
-                </div>                
+                </div>
             </div>
         </div>
     </div>
     <script src="js/require.js" data-main="js/app"></script>
 </body>
+
 </html>
