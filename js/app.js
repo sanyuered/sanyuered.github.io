@@ -4,7 +4,7 @@ require(['core'], function (core) {
 
     var pageName = core.url.getPageName();
 
-    if (pageName == "/index.html") {
+    if (pageName == "/index.html" || pageName == "/") {
 
         var userInfo = core.data.session.get("userInfo");
 
