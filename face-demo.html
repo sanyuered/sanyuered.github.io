@@ -5,26 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        body{margin: 0;}
+        body {
+            margin: 0;
+        }
 
         .container {
             position: relative;
             width: 100%;
-            height: 500px;
-            margin: auto;
             background-color: #ccc;
         }
 
         .video {
             position: absolute;
             width: 100%;
-            height: 500px;
         }
 
         .canvas {
             position: absolute;
-            left: 0;
-            top: 0;
+            width: 100%;
         }
 
         .buttons {
@@ -40,13 +38,14 @@
 </head>
 
 <body>
+    <div class="buttons">
+        <button onclick="run();" disabled id="btnRun">Start a Camera</button>
+    </div>
     <div class="container">
         <video onloadedmetadata="onPlay(this)" id="inputVideo" autoplay muted playsinline class="video"></video>
         <canvas id="overlay" class="canvas"></canvas>
     </div>
-    <div class="buttons">
-        <button onclick="run();" disabled id="btnRun">Start a Camera</button>
-    </div>
+
     <script src="js/face-api.js"></script>
     <script>
         // tiny_face_detector options
@@ -69,7 +68,7 @@
             if (inputVideo.paused || inputVideo.ended) {
                 return setTimeout(() => onPlay());
             }
-            const options = getFaceDetectorOptions()
+            const options = getFaceDetectorOptions();
             await detect();
             setTimeout(() => onPlay())
         }
