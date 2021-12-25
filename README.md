@@ -116,7 +116,7 @@ sceneView.session.pause()
 
 6.3 VINS-Mono（基于摄像头并融合惯性测量单元的AR框架）
 
-6.4 ORB_SLAM（基于摄像头的AR框架）
+6.4 ORB_SLAM2（基于摄像头的AR框架）
 
 ## 7. 关联技术
 
