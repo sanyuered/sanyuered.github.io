@@ -12,7 +12,7 @@
 
 [1.2 网页版图像跟踪AR](https://github.com/sanyuered/WebAR)
 
-1.3 在线预览：https://sanyuered.github.io/WebAR/
+[1.3 在线预览](https://sanyuered.github.io/WebAR/)
 
 ## 2. 微信小程序官方API的AR
 
@@ -25,14 +25,14 @@
 
 [3.1 微信小程序运行WebAssembly的GO](https://github.com/sanyuered/WeChat-MiniProgram-AR-WASM)
 
-3.2 在线预览：https://sanyuered.github.io/WeChat-MiniProgram-AR-WASM/go_dev/lesson1.html
+[3.2 在线预览](https://sanyuered.github.io/WeChat-MiniProgram-AR-WASM/go_dev/lesson1.html)
 
 
 ## 4. 微信小程序运行OpenCV
 
 [4.1 微信小程序运行WebAssembly的OpenCV](https://github.com/sanyuered/WeChat-MiniProgram-AR-WASM)
 
-4.2 在线预览：https://sanyuered.github.io/WeChat-MiniProgram-AR-WASM/opencv_dev/lesson2.html
+[4.2 在线预览](https://sanyuered.github.io/WeChat-MiniProgram-AR-WASM/opencv_dev/lesson2.html)
 
 
 ## 5. 微信小程序运行Tensorflow
@@ -41,7 +41,7 @@
 
 [5.2 网页版TFJS](https://github.com/sanyuered/AR-TFJS)
 
-5.3 在线预览：https://sanyuered.github.io/AR-TFJS/
+[5.3 在线预览](https://sanyuered.github.io/AR-TFJS/)
 
 
 ## 6. 微信小程序3D
@@ -50,4 +50,4 @@
 
 [6.2 网页版3D](https://github.com/sanyuered/AR-3D)
 
-6.3 在线预览：https://sanyuered.github.io/AR-3D/
+[6.3 在线预览](https://sanyuered.github.io/AR-3D/)
